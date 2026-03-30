@@ -1,0 +1,74 @@
+/* --- CONFIGURAÇÕES DE CORES IDENTIDADE PAÇO --- */
+:root {
+    --azul-prefeitura: #004a8e;
+    --verde-prefeitura: #8dc63f;
+    --rosa-prefeitura: #c22085;
+    --laranja-prefeitura: #f58220;
+    --branco: #ffffff;
+    --fundo: #f0f2f5;
+}
+
+/* --- CABEÇALHO (FORÇANDO A COR AZUL MARINHO) --- */
+.main-header, 
+header#mainHeader,
+#appContainer header { 
+    background-color: var(--azul-prefeitura) !important; 
+    color: var(--branco) !important;
+}
+
+/* --- LOGO E DESTAQUES --- */
+.logo span, 
+.reclamar-ppl span { 
+    color: var(--laranja-prefeitura) !important; 
+}
+
+/* --- ABAS (ATIVOS / CONCLUÍDOS) --- */
+.tab-btn.active { 
+    color: var(--azul-prefeitura) !important;
+    border-bottom: 4px solid var(--laranja-prefeitura) !important;
+    background: var(--branco) !important;
+}
+
+/* --- BOTÃO FLUTUANTE (+) --- */
+.fab, 
+button.floating-btn {
+    background-color: var(--verde-prefeitura) !important;
+    color: var(--branco) !important;
+    box-shadow: 0 4px 15px rgba(141, 198, 63, 0.4) !important;
+}
+
+/* --- CARDS E STATUS --- */
+.complaint-card {
+    border-radius: 16px !important;
+    border-left: 8px solid #ddd;
+}
+
+/* Magenta para Pendente */
+.status-pendente { 
+    border-left-color: var(--rosa-prefeitura) !important; 
+    color: var(--rosa-prefeitura) !important;
+}
+
+/* Laranja para Execução */
+.status-execucao { 
+    border-left-color: var(--laranja-prefeitura) !important; 
+    color: var(--laranja-prefeitura) !important;
+}
+
+/* Verde para Concluído */
+.status-concluido { 
+    border-left-color: var(--verde-prefeitura) !important; 
+    color: var(--verde-prefeitura) !important;
+}
+
+/* --- BOTÕES DE AÇÃO --- */
+.btn-submit, 
+.btn-principal {
+    background-color: var(--verde-prefeitura) !important;
+    color: var(--branco) !important;
+}
+
+.btn-apoiar {
+    background-color: var(--azul-prefeitura) !important;
+    color: var(--branco) !important;
+}
