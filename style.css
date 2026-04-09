@@ -1,0 +1,21 @@
+/* --- ADICIONADO: ASSINATURA NEXORA --- */
+.nexora-footer {
+    position: fixed !important;
+    bottom: 12px !important;
+    left: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+    font-family: sans-serif !important;
+    font-size: 9px !important;
+    font-weight: bold !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase !important;
+    color: #1e56cc !important; /* Azul do seu logo */
+    background: transparent !important;
+    text-shadow: 0 0 3px rgba(0, 225, 255, 0.4) !important;
+    z-index: 999999 !important;
+    pointer-events: none !important;
+    opacity: 0.8;
+}
+/* Evita que o último card fique atrás do texto */
+#listaPostagens { padding-bottom: 40px !important; }
