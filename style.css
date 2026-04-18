@@ -1,0 +1,25 @@
+/* ============================================================
+   RECLAME PPL — style.css
+   Estilos complementares / Assinatura Nexora AI
+   ============================================================ */
+
+.nexora-footer {
+    position: fixed !important;
+    bottom: 8px !important;
+    left: 0 !important;
+    width: 100% !important;
+    text-align: center !important;
+    font-family: 'Sora', sans-serif !important;
+    font-size: 9px !important;
+    font-weight: 700 !important;
+    letter-spacing: 2px !important;
+    text-transform: uppercase !important;
+    color: rgba(10, 24, 48, 0.25) !important;
+    background: transparent !important;
+    z-index: 999999 !important;
+    pointer-events: none !important;
+    opacity: 1 !important;
+}
+
+/* Garante que o feed não fique atrás do rodapé */
+#feed { padding-bottom: 110px !important; }
